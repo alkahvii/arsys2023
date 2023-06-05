@@ -234,7 +234,12 @@ return [
             'icon'      => 'far fa-fw fa-file',
             //'roles'     => ['reviewer', 'committee','author'],
         ],
-
+        [
+            'text'       => 'Research Data',
+            'route'      => 'data.idx',
+            'icon'      => 'far fa-fw fa-envelope',
+            //'roles'     => ['reviewer', 'committee','author'],
+        ],
         [
             'text'       => 'Institution',
             'route'      => 'arsys.admin.config.institution',

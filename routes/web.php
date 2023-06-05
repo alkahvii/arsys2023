@@ -39,6 +39,9 @@ Route::get('/user/profile/edit', \App\Http\Livewire\Arsys\User\Profile\Edit\Idx:
 Route::get('/admin/user', \App\Http\Livewire\Arsys\Admin\User\Idx::class)->name('arsys.admin.user');
 Route::get('/admin/config/institution', \App\Http\Livewire\Arsys\Admin\Config\Institution\Idx::class)->name('arsys.admin.config.institution');
 
+//Research data
+Route::get('/research data/landingpage', \App\Http\Livewire\Research\Idx::class)->name('data.idx');
+
 
 
 
