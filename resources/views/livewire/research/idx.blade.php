@@ -7,6 +7,7 @@
                     <b>Research</b> | Research Data
                 </div>
                 <div class="card-body">
+                @livewire('research.data')
                 </div>
             </div>
         </div>
