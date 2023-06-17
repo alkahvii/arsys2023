@@ -1,3 +1,7 @@
+@if($modeData!="add")
+<div>
+<div><button wire:click="add" class="success" style="width:30%;border-radius:10px;background-color:#25D366;color:white;"><i class="fas fa-microscope"></i>&nbsp; ADD RESEARCH</button></div>
+    <br>
 <div class="card">
     <div class="card-header">
         <div class="text-center"><b>Research Data</b>
@@ -56,4 +60,7 @@
         </div>
     </div>
 </div>
-
+</div>
+@else
+@livewire('research.add')
+@endif
