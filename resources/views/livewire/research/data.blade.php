@@ -29,30 +29,92 @@
     </div>
     <div class="card-body">
         <div class="row"> 
-            <div class="col-md-8" style = "border-bottom-style: solid; border-bottom-color: grey; border-bottom-width: 1px; border-right-style: solid; border-right-color: grey; border-right-width: 0.5px;">
-                <div class="col-md-12" style = "border-bottom-style: solid; border-bottom-color: grey; border-bottom-width: 1px;">
-                <b>Progress of Supervision</b>
-                </div>
+            <div class="col-md-8">
+
+                
+                 <div><div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title"><i class="fas fa-spinner"></i><b> Progress of Supervision</b></h3>
+                      <div class="card-tools">
+                        <!-- Collapse Button -->
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse">Click to unfold/fold <i class="fas fa-arrow-down text-blue"></i></button>
+                      </div>
+                      <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                      <div class="row">
+                        <div style="color:darkgreen; font-style:italic">JKR </div>
+                        <div style="width:1%"></div>
+                        <button type="button" style="color:black" class="btn btn-tool"><i class="fas fa-plus text-blue"></i>Add Meeting</button> 
+                        <div style="width:1%"></div>
+                        <button type="button" style="color:black" class="btn btn-tool"><i class="fas fa-check text-blue"></i>bypass</button>
+                        
+                      </div>
+                        
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.card --></div>
+                
                 <br>
-                <div class="col-md-12" style = "border-bottom-style: solid; border-bottom-color: grey; border-bottom-width: 1px;">
-                Nama Supervisor Add Meeting bypass
-                </div>
-                <div class="col-md-12" style = "border-bottom-style: solid; border-bottom-color: grey; border-bottom-width: 1px;">
-                <div rowspan="2"style="vertikal-align:middle;"><b>To-do List</b></div>
-                <br>
-                </div>
-                <div class="col-md-12">
-                Add
-                </div>
+                <div class="card">
+                    <div class="card-header">
+                      <h3 class="card-title"><i class="fas fa-list"></i><b> To-do List</b></h3>
+                      <div class="card-tools">
+                        <!-- Collapse Button -->
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse">Click to unfold/fold <i class="fas fa-arrow-down text-blue"></i></button>
+                      </div>
+                      <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                      <button type="button" style="color:black" class="btn btn-tool"><i class="fas fa-plus text-blue"></i> Add </button>
+                        
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.card -->
+                
+            
             </div>
-            <div class="col-md-4" style = "border-bottom-style: solid; border-bottom-color: grey; border-bottom-width: 1px;">
-            <div class="col-md-12" style= "border-style: solid; border-color: grey; border-width: 1px;"><div><b>Approval Research Data</b></div>
-            <div>Tipe Research Data|Nama Supervisor
+            <div class="col-md-4">
+            <div class="col-md-12"><div><div class="card">
+                <div class="card-header">
+                  <h3 class="card-title"><b>Approval Research Data</b></h3>
+                  <div class="card-tools">
+                    <!-- Collapse Button -->
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                  </div>
+                  <!-- /.card-tools -->
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    Tipe Research Data|Nama Supervisor
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+                </div>
+            
             </div>
-            </div>
-            <br>
-            <div class="col-md-12" style= "border-style: solid; border-color: grey; border-width: 1px;"><div><b>Applied Event</b></div>
-            <div>Event Type Updated at
+            <br><div class="card">
+                <div class="card-header">
+                  <h3 class="card-title"><b>Applied Event</b></h3>
+                  <div class="card-tools">
+                    <!-- Collapse Button -->
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i></button>
+                  </div>
+                  <!-- /.card-tools -->
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    Event Type Updated at
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            <div class="col-md-12" ><div></div>
             </div>
             </div>
             </div>
