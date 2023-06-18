@@ -6,6 +6,7 @@ use Livewire\Component;
 
 class Data extends Component
 {
+    protected $listeners=['submit'];
     public $modeData=null;
     public function render()
     {
@@ -14,5 +15,9 @@ class Data extends Component
     public function add()
     {
     $this->modeData="add";
+    }
+    public function submit()
+    {
+    $this->modeData=null;
     }
 }

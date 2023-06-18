@@ -1,6 +1,6 @@
 @if($modeData!="add")
 <div>
-<div><button wire:click="add" class="success" style="width:30%;border-radius:10px;background-color:#25D366;color:white;"><i class="fas fa-microscope"></i>&nbsp; ADD RESEARCH</button></div>
+<div><button wire:click="add" class="success" style="width:30%;border-radius:10px;background-color:#0098db;color:white;"><i class="fas fa-microscope"></i>&nbsp; ADD RESEARCH</button></div>
     <br>
 <div class="card">
     <div class="card-header">
