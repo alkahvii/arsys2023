@@ -1,7 +1,23 @@
-@if($modeData!="add")
 <div>
-<div><button wire:click="add" class="success" style="width:30%;border-radius:10px;background-color:#0098db;color:white;"><i class="fas fa-microscope"></i>&nbsp; ADD RESEARCH</button></div>
-    <br>
+<div><button data-toggle="modal" data-target="#assignModal" class="success" style="width:30%;border-radius:10px;background-color:#0098db;color:white;"><i class="fas fa-microscope"></i>&nbsp; ADD RESEARCH</button></div>
+<div class="modal fade" id="assignModal" tabindex="-1" role="dialog" aria-labelledby="assignModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header" style="background-color:#0098db; color:azure;">
+              <h5 class="modal-title" id="assignModalLabel"> <div style="font-family: serif; text-align: center; font-size: 25px;">
+                <b>Form Research Data</b>
+            </div></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <p>@livewire('research.add')</p>
+          </div>
+          
+      </div>
+  </div>
+</div><br>
 <div class="card">
     <div class="card-header">
         <div class="text-center"><b>Research Data</b>
@@ -123,6 +139,3 @@
     </div>
 </div>
 </div>
-@else
-@livewire('research.add')
-@endif
