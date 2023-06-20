@@ -29,7 +29,7 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            <x-adminlte-input placeholder="{{$student->student_id}}" name="studentNumber" label="Student number" style="width: 100%" disabled/>
+            <x-adminlte-input placeholder="{{$student->student_number}}" name="studentNumber" label="Student number" style="width: 100%" disabled/>
         </div>
         <div class="col-md-3">
             <x-adminlte-input placeholder="{{$student->phone}}" name="phoneNumber" label="Phone number" style="width: 100%" disabled/>

@@ -48,7 +48,7 @@
                                         @endif
                                     </td>
                                     <td>
-                                        {{$student->student_id}}
+                                        {{$student->student_number}}
                                     </td>
                                     <td>
                                         @if(!is_null($student->specialization))
