@@ -26,6 +26,6 @@ class Data extends Model
     }
 
     public function event(){
-        return $this->belongsTo(Event::class, 'research_milestone', 'id');
+        return $this->belongsTo(Event::class, 'research_type', 'id');
     }
 }

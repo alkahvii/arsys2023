@@ -9,5 +9,5 @@ class Event extends Model
 {
     use HasFactory;
     protected $fillable = [];
-    protected $table = 'arsys_event';
+    protected $table = 'arsys_research_type';
 }

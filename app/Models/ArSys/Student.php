@@ -2,13 +2,14 @@
 
 namespace App\Models\ArSys;
 
+use App\Models\Research\Data;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Student extends Model
 {
     use HasFactory;
-    protected $fillable = ['user_id', 'program_id', 'specialization_id', 'supervisor_id', 'code',  'student_id', 'first_name', 'last_name', 'phone', 'email'];
+    protected $fillable = ['program_id', 'user_id', 'student_number', 'code',  'specialization_id', 'first_name', 'last_name', 'phone', 'email'];
     protected $table = 'arsys_student';
 
     public function program() {
@@ -20,6 +21,10 @@ class Student extends Model
 
     public function supervisor() {
         return $this->belongsTo(Staff::class, 'supervisor_id', 'id' );
+    }
+
+    public function research() {
+        return $this->hasMany(Data::class, 'student_id', 'id');
     }
 
 }
